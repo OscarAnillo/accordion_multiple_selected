@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+}
+.current-image {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 7px #666;
+    height: 100%;
+    width: 100%;
+}
+.arrow {
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    filter: drop-shadow(0 0 5px #555);
+}
+.arrow-left {
+    left: 1rem
+}
+.arrow-right {
+    right: 1rem;
+}
+.circle-indicators {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+}
+.current-indicator {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 15px;
+    margin: 0 0.2rem;
+    outline: none;
+    width: 15px;
+}
+.hide-current-image {
+ display: none;   
+}
+.inactive-indicator {
+    background-color: #6b6a6a;
+}
